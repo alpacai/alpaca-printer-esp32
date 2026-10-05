@@ -1,4 +1,4 @@
-import hashlib,json,os,re,urllib.request,urllib.error
+import hashlib,json,os,re,urllib.request,urllib.error,urllib.parse
 from pathlib import Path
 
 def validate(directory,tag):
